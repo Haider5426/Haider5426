@@ -13,7 +13,7 @@ I used VS code for Ubuntu to build this projet but you can use your desired plat
 Open your terminal and write following commands:
 ```console
 wanderer@wanderer-VirtualBox:-$ sudo apt update
-wanderer@wanderer-VirtualBox:-sudo apt upgrade
+sudo apt upgrade
 wanderer@wanderer-VirtualBox:-sudo apt install mysql-server
 ```
 The system will download MYSQL packages and installs them on your machine.
