@@ -21,7 +21,7 @@ sudo apt upgrade
 sudo apt install mysql-server
 ```
 * The system will download MYSQL packages and installs them on your machine.
-* 
+
 Check your installation by running:
 ```console
 mysql --version
