@@ -20,15 +20,23 @@ sudo apt upgrade
 ```console
 sudo apt install mysql-server
 ```
-The system will download MYSQL packages and installs them on your machine.
+* The system will download MYSQL packages and installs them on your machine.
+* 
 Check your installation by running:
+```console
 mysql --version
+```
 Now run the following command:
+```console
 sudo mysql_secure_installation
-You will be prompted to enter a password and answer Y for VALIDATE PASSWORD componenet.
-Answer Y for all other components unless you want a different setting.
+```
+* You will be prompted to enter a password and answer Y for VALIDATE PASSWORD componenet.
+* Answer Y for all other components unless you want a different setting.
+
 Login to MYSQL server by running:
+```console
 sudo mysql -u root -p
+```
 Enter your password
 Now you can execute queries.
 
