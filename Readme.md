@@ -12,9 +12,11 @@ I used VS code for Ubuntu to build this projet but you can use your desired plat
 #### For MYSQL server
 Open your terminal and write following commands:
 ```console
-wanderer@wanderer-VirtualBox:-$ sudo apt update
+sudo apt update
+```console
 sudo apt upgrade
-wanderer@wanderer-VirtualBox:-sudo apt install mysql-server
+```console
+sudo apt install mysql-server
 ```
 The system will download MYSQL packages and installs them on your machine.
 Check your installation by running:
